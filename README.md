@@ -72,13 +72,6 @@ git clone https://github.com/GuILS00/projeto-desenhos-api.git
 
 ---
 
-## 🌐 GitHub Pages (versão publicada)
-
-🔗 **Acesse o projeto online:**  
-https://GuILS00.github.io/projeto-desenhos-api.git
-
----
-
 ## 📹 Vídeo Pitch
 
 O vídeo demonstra:
