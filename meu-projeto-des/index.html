@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Desenhos - Cards Dinâmicos</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Personagens Clássicos</h1>
+    <p class="subtitle">Anos 90 / 2000 — Cards carregados via API</p>
+  </header>
+
+  <main>
+    <section id="controls">
+      <!-- controles opcionais: pesquisa, paginação -->
+      <input id="search" placeholder="Pesquisar personagem..." />
+      <button id="loadMore">Carregar mais</button>
+    </section>
+
+    <section id="cards-container" class="cards-grid" aria-live="polite">
+      <!-- cards serão inseridos aqui dinamicamente -->
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto de exemplo — API pública</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
